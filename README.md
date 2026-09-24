@@ -5,14 +5,15 @@ Exploratory data analysis of India's COVID-19 first wave (Jan to Aug 2020) plus 
 ## What's in here
 
 - `covid19_india_eda.ipynb` - the full analysis
+- `data/` - the two raw CSVs the notebook uses
 - `cleaned_covid_india.csv` - cleaned state-wise daily data (the notebook creates this when you run it)
 
 ## Data
 
-- State-wise daily cases, recoveries and deaths: [imdevskp/covid-19-india-data](https://github.com/imdevskp/covid-19-india-data) (`complete.csv`, 30 Jan to 6 Aug 2020)
-- Vaccinations: [Our World in Data](https://github.com/owid/covid-19-data) India file (Jan 2021 to Aug 2024)
+- State-wise daily cases, recoveries and deaths: [imdevskp/covid-19-india-data](https://github.com/imdevskp/covid-19-india-data) (`data/complete.csv`, 30 Jan to 6 Aug 2020)
+- Vaccinations: [Our World in Data](https://github.com/owid/covid-19-data) India file, saved as `data/india_vaccinations.csv` (Jan 2021 to Aug 2024)
 
-The notebook reads both straight from GitHub, so you don't have to download anything.
+Both files are already in the `data` folder, so you don't need to download anything.
 
 ## What I did
 
@@ -41,7 +42,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook covid19_india_eda.ipynb
 ```
 
-Then run all cells. You need an internet connection since the data loads from GitHub.
+Then run all cells. Keep the `data` folder next to the notebook since that's where it reads the CSVs from.
 
 ## Limitations
 
