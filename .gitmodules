@@ -1,0 +1,9 @@
+[submodule "titanic-analysis"]
+	path = titanic-analysis
+	url = https://github.com/divsvash/titanic-analysis
+[submodule "regression-dsml"]
+	path = regression-dsml
+	url = https://github.com/divsvash/regression-dsml
+[submodule "ab-testing"]
+	path = ab-testing
+	url = https://github.com/divsvash/ab-testing
